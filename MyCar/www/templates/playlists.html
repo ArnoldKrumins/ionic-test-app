@@ -1,0 +1,52 @@
+<ion-view title="Choose My Vehicle">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header main-menu">
+
+   <div class="finance nlc-options-container">
+       <nlc-option-price></nlc-option-price>
+   </div>
+
+   <div class="sunset nlc-options-container">
+       <nlc-option-body-types></nlc-option-body-types>
+   </div>
+
+   <div class="eco nlc-options-container">
+       <nlc-option-emissions></nlc-option-emissions>
+   </div>
+
+
+
+
+     <div class="button-container">
+         <ion-item nav-clear menu-close href="#/app/browse">
+      <button type="button" pulse class="submit-quote-button btn btn-fp-lg btn-fp-lg-round btn-fp-orange">
+          Show Vehicles
+          <i class="fa fa-check"></i>
+      </button>
+         </ion-item>
+     </div>
+
+ <!--  <div class="ancap nlc-options-container">
+       <nlc-option-ancap></nlc-option-ancap>
+       &lt;!&ndash;<nlc-option-ancap></nlc-option-ancap>&ndash;&gt;
+   </div>-->
+
+    <!--<ion-list>
+      <ion-item class="finance" href="#/app/playlists/{{playlist.id}}">
+          <nlc-option-price></nlc-option-price>
+      </ion-item>
+
+      <ion-item class="sunset" href="#/app/playlists/{{playlist.id}}">
+
+      </ion-item>
+
+      <ion-item class="eco" href="#/app/playlists/{{playlist.id}}">
+
+      </ion-item>
+
+    </ion-list>-->
+
+  </ion-content>
+</ion-view>

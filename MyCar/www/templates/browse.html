@@ -1,0 +1,31 @@
+<ion-view title="Browse">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+
+      <ion-list>
+          {{ searchResults[0].Name }}
+          <ion-item ng-repeat="vehicle in searchresults"  href="#/app/playlists/{{vehicle.value}}">
+              <div class="col-md-5 vehicle-image" >
+              <img class="car-image-search opacity-point-eight" width="100" src="/img/vehicles/{{ vehicle.image }}">
+              </div>
+              <div class="col-md-7 vehicle-info">
+              <h4>{{ vehicle.Name }}</h4>
+              <p>{{ vehicle.description }}</p>
+              <h3 class="vehicle-price">{{ vehicle.price }}</h3>
+              </div>
+              <i class="fa fa-caret-right" pulse></i>
+              </div>
+          </ion-item>
+
+
+
+      </ion-list>
+
+
+
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,80 @@
+/* Empty. Add your own CSS if you like */
+.finance,.sunset,.eco, .ancap{
+    height: 125px;
+    display: block;
+}
+
+.finance{
+    background: url(../img/finance.png);
+    
+}
+.sunset{
+    background: url(../img/sunset.png);
+}
+
+.eco{
+    background: url(../img/eco.png);
+
+}
+
+.ancap{
+    background: url(../img/cityscene.png);
+
+}
+
+.main-menu .item-content{
+    padding: 0;
+    background-color: #070707;
+}
+
+.main-menu .item{
+    border: none;
+
+}
+
+.bar.bar-stable .title {
+    color: #FFF;
+
+}
+
+.bar.bar-stable {
+    border-color: #512404;
+    background-color: #B09515;
+    background-image: linear-gradient(0deg, #61510B, #665712 50%, transparent 50%);
+    color: #594507;
+
+
+}
+
+.bar-stable .button {
+    color: #FFF;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.item {
+    border-color: #3D3D3D;
+    background-color: #000;
+    color: #B1AEAE;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: -1px;
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+}
+
+
+.scroll-content ,.view{
+background-color: #000;
+}

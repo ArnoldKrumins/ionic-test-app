@@ -1,0 +1,283 @@
+/* Specify Swiper's Size: */
+.nlc-options-container{
+
+}
+.nlc-options-container div{
+    /*margin-top: -35px;*/
+}
+
+.vehicle-results-container{
+    padding: 15px;
+    width: 470px;
+    height: 420px;
+    margin-left: 10px;
+}
+.vehicle-results-container > div{
+    margin-top: 32px;
+}
+
+.vehicle-results-container .scroll-up,
+.vehicle-results-container .scroll-down{
+    font-size: 40px;
+    position: absolute;
+    z-index: 999;
+    color: #d86b0c;
+    text-shadow: 0px 5px 6px rgba(150, 150, 150, 1);
+}
+
+.vehicle-results-container .scroll-up{
+    top: 15px;
+    left: 50px;
+}
+.vehicle-results-container .scroll-down{
+    bottom: 23px;
+    left: 50px;
+}
+
+
+.vehicle-container{
+    line-height: 1.42857143;
+    border-top: 1px solid #AAB34C;
+    color: #976C3C;
+    padding: 8px 0 8px 0;
+}
+
+.vehicle-container i{
+    font-size: 60px;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    text-shadow: 0px 5px 6px rgba(150, 150, 150, 1);
+}
+
+
+.vehicle-image{
+    margin-left: -13px;
+}
+
+.vehicle-info{
+    margin: -10px 0 0 -50px;
+}
+
+.vehicle-info p{
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: -13px;
+    text-shadow: 5px 5px 6px rgba(181, 181, 181, 1);
+}
+.vehicle-info h4{
+    color: #CF7E16;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 6px rgba(181, 181, 181, 1);
+}
+
+.vehicle-price{
+    margin-top: -8px!Important;
+    font-weight: bold!Important;
+    font-style: italic!Important;
+    font-size: 20px!Important;
+    text-shadow: 5px 5px 6px rgba(181, 181, 181, 1)!Important;
+    color: #B6AC18!Important;
+}
+
+
+
+.car-image-search {
+    box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #8A8383, /*top external shadow*/ inset 0 -1px 1px rgba(255, 255, 255, 0.5), /*bottom internal shadow*/ inset 0 1px 1px rgba(221, 214, 214, 0.8);
+    background-color: rgb(231, 229, 226)!Important;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+.fp-panel{
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.15);
+    background: rgb(214, 214, 214);
+    border-radius: 22px;
+}
+
+
+.nlc-options-container button{
+    position: relative;
+    left: 84px;
+    top: 6px;
+}
+
+
+.vehicle-results-container .swiper-container,
+.vehicle-results-container .swiper-slide{
+    width: 428px;
+    height:325px;
+}
+
+.nlc-options-container .swiper-container,
+.nlc-options-container .swiper-slide
+{
+
+
+    height: 100px;
+}
+.nlc-options-container .swiper-container{
+margin-top: -15px;
+}
+
+.nlc-options-container .swiper-slide > div{
+    text-align: center;
+    margin: 26px 0 -26px 0;
+}
+
+
+.swiper-slide > div i{
+    font-size: 40px !Important;
+    position: relative;
+    font-weight: bolder !Important;;
+    margin: 14px 0 10px 0;
+    color: #ffffff;
+}
+
+
+.price-icon, .user-icon, .emission-icon{
+    font-size: 65px !Important;
+    position: relative;
+    top: 20px;
+    left: 43%;
+    font-weight: bolder !Important;;
+    margin: 14px 0 5px 0;
+}
+
+
+.swiper-container .fa-chevron-left,
+.swiper-container .fa-chevron-right {
+    position: absolute;
+    z-index: 999999;
+    font-size: 50px;
+    top: 40px;
+    color: #ffffff;
+    text-shadow: 0px 5px 6px rgba(150, 150, 150, 1);
+}
+
+
+.swiper-container .fa-chevron-left{
+    left: 10px;
+}
+
+.swiper-container .fa-chevron-right{
+    right: 10px;
+}
+
+.swiper-container.bodytype{
+   /*background: url("../Images/sunset.png");*/
+}
+
+.swiper-container.price{
+    /*background: url("../Images/finance.png");*/
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.fp-metallic {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 28%,rgba(170,173,179,1) 100%);
+    background: -webkit-gradient(left top,left bottom,color-stop(0%,rgba(255,255,255,1)),color-stop(28%,rgba(246,246,246,1)),color-stop(100%,rgba(170,173,179,1)));
+    background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 28%,rgba(170,173,179,1) 100%);
+    background: -o-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 28%,rgba(170,173,179,1) 100%);
+    background: -ms-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 28%,rgba(170,173,179,1) 100%);
+    background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(246,246,246,1) 28%,rgba(170,173,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#aaadb3',GradientType=0);
+    border: 0 solid rgba(0,0,0,.2);
+}
+
+ .swiper-slide h3{
+    text-align: center;
+    clear: both;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.content-image{
+    display: block;
+    height: 75px;
+    width: 100px;
+    margin-top: 8px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    text-align: center!important;
+    margin-bottom: -26px!important;
+}
+
+
+/* Convertible - unselected/hover-selected/unavaialble */
+.convertible.unselected{
+    background: url('../img/carbodysprites-sm.png') 0 0;
+}
+/* Coupe - unselected/hover-selected/unavaialble */
+.coupe.unselected{
+    background: url('../img/carbodysprites-sm.png') -104px 0;
+}
+/* hatch - unselected/hover-selected/unavaialble */
+.hatch.unselected{
+    background: url('../img/carbodysprites-sm.png') -213px 0;
+}
+/* People Mover - unselected/hover-selected/unavaialble */
+.peoplemover.unselected{
+    background: url('../img/carbodysprites-sm.png') -323px 0;
+}
+/* Sedan - unselected/hover-selected/unavaialble */
+.sedan.unselected{
+    background: url('../img/carbodysprites-sm.png') -427px 0;
+}
+/* SUV - unselected/hover-selected/unavaialble */
+.suv.unselected{
+    background: url('../img/carbodysprites-sm.png') -532px 0;
+}
+/* Ute - unselected/hover-selected/unavaialble */
+.ute.unselected{
+    background: url('../img/carbodysprites-sm.png') -645px 0;
+}
+/* Wagon - unselected/hover-selected/unavaialble */
+.wagon.unselected{
+    background: url('../img/carbodysprites-sm.png') -752px 0;
+}
+
+/* Exists already in NLC */
+
+.opacity-point-eight {
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.80;
+    opacity: 0.80;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    filter: alpha(opacity=80);
+}
+
+.btn-fp-orange {
+    background: #d86b0c;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #d86b0c 0%, #ce471a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d86b0c), color-stop(100%,#ce471a));
+    background: -webkit-linear-gradient(top, #d86b0c 0%,#ce471a 100%);
+    background: -o-linear-gradient(top, #d86b0c 0%,#ce471a 100%);
+    background: -ms-linear-gradient(top, #d86b0c 0%,#ce471a 100%);
+    background: linear-gradient(to bottom, #d86b0c 0%,#ce471a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d86b0c', endColorstr='#ce471a',GradientType=0 );
+    border: 1px solid #d86b0c;
+    color: white;
+}
+
+.btn-fp-lg-round {
+    border-radius: 24px;
+}
+
+/* Change to class in NLC */
+
+
+
+
